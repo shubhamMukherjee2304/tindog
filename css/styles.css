@@ -1,0 +1,217 @@
+/* ***********************************************************/
+/* ***********************************************************/
+/* ***********************************************************/
+
+/* html elements */
+body {
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+/* headings */
+
+h1 {
+    font-family: 'Montserrat-black', sans-serif;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.5;
+}
+
+h2 {
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+h3 {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-weight: bold;
+}
+
+/* ***********************************************************/
+/* ********************************************************** */
+/* title section */
+
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+
+.container-fluid {
+    padding: 3% 15%;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* navigation bar */
+.nav {
+    padding-bottom: 5rem;
+}
+
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat-black', sans-serif;
+}
+
+/*download btns*/
+
+.download-btn {
+    margin: 15% 3% 5% 0;
+}
+
+/* title image */
+
+.title-image {
+    width: 60%;
+    transform: rotate(25deg);
+    /* margin-left: 50px; */
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+/* feateures section */
+
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+     position: relative;
+    z-index: 1;
+}
+
+ @media (max-width: 1028px) {
+
+     #title{
+         text-align: center;
+
+     }
+
+     .title-image{
+         transform: rotate(0);
+         margin-top: 50px;
+
+     }
+
+     #features {
+         padding: 7% 15%;
+         background-color: #fff;
+     }
+}
+
+.features-box {
+    text-align: center;
+    padding: 5%;
+}
+.features-icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+.features-icon:hover {
+    color: #ff4c68;
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+/* testimolials */
+
+#testimonials {
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+}
+
+.carousel-item{
+    padding: 7% 19%;
+}
+
+.testimonial-image {
+    margin: 20px;
+    width: 10%;
+    border-radius: 100%;
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+/* press section */
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+/* pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricecards{
+    padding: 3% 2%;
+}
+
+.cardbutton{
+    width: 80%;
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+/* cta section */
+
+#cta{
+    background-color:#ff4c68;
+    color: #fff;
+    text-align: center;
+}
+
+.cta-content{
+    padding: 4% 19%;
+}
+
+.cta-content-h3{
+    font-size: 2rem;
+    line-height: 1;
+}
+
+.cta-download-btn{
+    margin: 5% 3% 3% 0;
+}
+
+.cta-apple-icon{
+    margin-right: 8px;
+}
+
+/* ********************************************************** */
+/* ********************************************************** */
+
+#footer{
+    text-align: center;
+    padding: 2% 0 0;
+}
+
+.footer-icons{
+    margin: 1.5% 1%;
+}
+/* ********************************************************** */
+/* ********************************************************** */
+/* ********************************************************** */
